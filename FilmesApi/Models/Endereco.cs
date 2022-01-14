@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FilmesAPI.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,5 +19,6 @@ namespace FilmesApi.Models
         public int Numero { get; set; }
         [Required(ErrorMessage = "O campo bairro é obrigatório")]
         public string Bairro { get; set; }
+        public Cinema Cinema { get; set; }
     }
 }
