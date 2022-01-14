@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FilmesApi.Data.Dtos.Endereco
 {
-    public class ReadCinemaDto
+    public class ReadEnderecoDto
     {
         [Key]
         [Required]
